@@ -8,22 +8,17 @@
 
 .container {
     width: 70vw;
-    height: 70vh;
     margin: 10% auto;
     background-color: #F1F5F8;
     display: flex;
     justify-content: center;
 }
 
-.img-container {
-    display: grid;
-    place-items: center;
-}
-
 .image {
     object-fit: cover;
     height: 220px;
     width: 230px;
+    margin-top: 15px;
 }
 
 .counter-clock {
