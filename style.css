@@ -1,0 +1,23 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60vw;
+    height: 60vh;
+    margin: auto;
+    background-color: #F1F5F8;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.image {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
