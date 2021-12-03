@@ -7,17 +7,42 @@
 }
 
 .container {
-    width: 60vw;
-    height: 60vh;
-    margin: auto;
+    width: 70vw;
+    height: 70vh;
+    margin: 10% auto;
     background-color: #F1F5F8;
     display: flex;
     justify-content: center;
     border: 1px solid red;
 }
 
+.img-container {
+    display: grid;
+    place-items: center;
+}
+
 .image {
     object-fit: cover;
     height: 200px;
     width: 200px;
+}
+
+.counter-clock {
+    display: flex;
+    flex-direction: row;
+}
+
+.counter-items {
+    background: #102B42;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+    max-width: calc(70vw/2);
 }
