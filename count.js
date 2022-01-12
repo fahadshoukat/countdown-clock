@@ -27,7 +27,7 @@ const giveAway = document.querySelector(".give-away");
 const counterClock = document.querySelector(".counter-clock");
 const items = document.querySelectorAll(".item");
 
-let counterDate = new Date(2021, 11, 20, 11, 59, 0);
+let counterDate = new Date(2022, 11, 20, 11, 59, 0);
 
 const year = counterDate.getFullYear();
 const hours = counterDate.getHours();
